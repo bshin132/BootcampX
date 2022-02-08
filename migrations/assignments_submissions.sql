@@ -14,3 +14,5 @@ CREATE TABLE assignment_submissions (
   duration INTEGER,
   submission_date DATE
 );
+
+--WHERE clause works on normal data students.end_date and our HAVING clause works on the aggregated data count(assignment_submissions.*)
